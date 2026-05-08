@@ -6,6 +6,7 @@ import g3 from "@/assets/gallery-3.jpg";
 import journey from "@/assets/journey.jpg";
 import hero from "@/assets/hero-athlete.jpg";
 import about from "@/assets/about.jpg";
+import caax2 from "@/assets/caaxton-2.jpg";
 
 type Item = { src: string; type: "image" | "video"; alt: string; tall?: boolean };
 
@@ -13,6 +14,7 @@ const initial: Item[] = [
   { src: hero, type: "image", alt: "Athlete sprinting at golden hour", tall: true },
   { src: "/media/hero-video.mp4", type: "video", alt: "Training footage" },
   { src: journey, type: "image", alt: "Sunrise group training" },
+  { src: caax2, type: "image", alt: "Choose your pain wisely — Caaxton on the field", tall: true },
   { src: g1, type: "image", alt: "Foundation craftwork", tall: true },
   { src: about, type: "image", alt: "Worn shoes on red soil" },
   { src: g2, type: "image", alt: "Foundation creative work" },
