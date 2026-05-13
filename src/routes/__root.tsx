@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Lifters & Rangers Foundation — From Ngong Hills to the World" },
       { name: "description", content: "A Kenyan foundation nurturing young athletes from the Ngong Hills onto the global stage. Discipline, survival, self-belief." },
       { name: "author", content: "Lifters & Rangers Foundation" },
-      { property: "og:title", content: "Lifters & Rangers Foundation" },
-      { property: "og:description", content: "From Ngong Hills to the World — a story of talent, training and triumph." },
+      { property: "og:title", content: "Lifters & Rangers Foundation — From Ngong Hills to the World" },
+      { property: "og:description", content: "A Kenyan foundation nurturing young athletes from the Ngong Hills onto the global stage. Discipline, survival, self-belief." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lifters & Rangers Foundation — From Ngong Hills to the World" },
+      { name: "twitter:description", content: "A Kenyan foundation nurturing young athletes from the Ngong Hills onto the global stage. Discipline, survival, self-belief." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2d8c7204-decb-4389-b8d2-c82230e4cb43/id-preview-6087ea2f--a5803ec9-f0d9-4b74-bfe1-7a60c7954a97.lovable.app-1778663264955.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2d8c7204-decb-4389-b8d2-c82230e4cb43/id-preview-6087ea2f--a5803ec9-f0d9-4b74-bfe1-7a60c7954a97.lovable.app-1778663264955.png" },
     ],
     links: [
       {
