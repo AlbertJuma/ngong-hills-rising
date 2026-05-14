@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 const items = [
   { Icon: MapPin, label: "Based in", value: "Ngong Hills, Kenya" },
   { Icon: Mail, label: "Email", value: "ccaxtomar@gmail.com", href: "mailto:ccaxtomar@gmail.com" },
-  { Icon: Phone, label: "Call", value: "+254 733 733 1366", href: "tel:+254733733366" },
+  { Icon: Phone, label: "Call", value: "+254 733 731 366", href: "tel:+254733731366" },
 ];
 
 export function Contact() {
